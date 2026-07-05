@@ -22,7 +22,7 @@ The backend implements an **Adaptive Biological Filter** that dampens and scales
 
 The server validates access requests by loading the stored baseline vector from the encrypted file layer and processing a vector norm analysis against incoming telemetry frames:
 
-$$D = \sqrt{\sum_{i=1}^{k} (V_{\text{filtered\_live}, i} - V_{\text{decrypted\_baseline}, i})^2}$$
+$$D = \sqrt{\sum_{i=1}^{k} (V_{\text{filtered}} - V_{\text{decrypted}})^2}$$
 
 Session authorization completes successfully and encrypted vault resources unlock if and only if the computational distance delta satisfies the safety threshold metric ($D \le 0.28$).
 
