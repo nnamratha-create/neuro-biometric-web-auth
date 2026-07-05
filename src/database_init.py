@@ -1,6 +1,6 @@
 import numpy as np
-from crypto import NeuroEncryptionEngine
-from stimulus import VisualStimulusRegistry
+from src.crypto import NeuroEncryptionEngine
+from src.stimulus import VisualStimulusRegistry
 
 class IdentityDatabaseGenerator:
     """Sets up the initial cloud database workspace with encrypted entries."""
