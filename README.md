@@ -2,7 +2,7 @@
 
 ### Stimulus-Evoked Brainwave Web Gateway with Symmetric Biometric Encryption and Adaptive State Compensation
 
-![Interface: Visual VEP](https://shields.io) ![Security: AES-256](https://shields.io) ![Field: Software Engineering](https://shields.io)
+<img src="https://shields.io" alt="Interface: Visual VEP"> <img src="https://shields.io" alt="Security: AES-256"> <img src="https://shields.io" alt="Field: Software Engineering">
 
 This repository contains **Component 4** of our framework: an internet-ready, device-free authentication server. It handles remote login requests by combining **Visual Evoked Potentials (VEPs)** with custom shape-selection pattern passwords across a base platform of **100 encrypted neural wave logs**.
 
