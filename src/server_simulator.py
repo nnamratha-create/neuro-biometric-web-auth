@@ -1,9 +1,9 @@
 import numpy as np
 import json
-from crypto import NeuroEncryptionEngine
-from database_init import IdentityDatabaseGenerator
-from filter_pipeline import AdaptiveBiologicalFilter
-from stimulus import VisualStimulusRegistry
+from src.crypto import NeuroEncryptionEngine
+from src.database_init import IdentityDatabaseGenerator
+from src.filter_pipeline import AdaptiveBiologicalFilter
+from src.stimulus import VisualStimulusRegistry
 
 class VisualNeuroGatewayServer:
     def __init__(self):
