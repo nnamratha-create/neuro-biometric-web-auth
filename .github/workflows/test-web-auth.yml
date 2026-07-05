@@ -1,0 +1,21 @@
+name: Gateway Verification Run
+
+on: [push]
+
+jobs:
+  verify-login-server:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch Code From Repo
+        uses: actions/checkout@v4
+        
+      - name: Initialize Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install Extensions
+        run: pip install -r requirements.txt
+        
+      - name: Run Web Login Simulation
+        run: python src/server_simulator.py
